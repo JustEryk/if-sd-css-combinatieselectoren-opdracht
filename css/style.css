@@ -7,39 +7,73 @@ Zie universele selector op Pagina 212 */
 
 /* Selecteer de body element en geef het de achtergrond kleur aliceblue
 zie typeselector op Pagina 211 */
-
+body{
+background-color: aliceblue;
+}
 
 /* Selecter de header element welke direct onder de body zit met een kindselector 
 geef het de achtergrond kleur darkgoldenrod en als text-kleur wheat 
 geef de header een padding van 10px */
-
+.header1{
+    background-color: darkgoldenrod;
+    color: wheat;
+    padding: 10px;
+}
 
 /* Selecteer de h1-element en verander de lettertype naar monospace
 verander óók lettergrootte met font-size */
-
+h1{
+ font-size: x-large;
+ font-family: monospace;
+}
 
 /* Selecteer headings h2 t/m h6 en geef het de lettertype monospace; */
-
+h2{
+    font-family: monospace;
+}
+h6{
+    font-family: monospace;
+}
 
 /* selecteer alle P-elementen en geef het de lettertype segoe UI */
-
+p{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 /* Selecteer alle headings, paragraven en article's 
 en geef het 10px margin en padding.
 (zie pagina 220) */
-
+header{
+    margin: 10px;
+    padding: 10px;
+}
+article{
+    margin: 10px;
+    padding: 10px;
+}
+p{
+    margin: 10px;
+    padding: 10px;
+}
 
 /* selecteer de nav-element met de klasse links en voeg daar de volgende 
 css aan toe 
     border:2px solid black;
     text-align: center;*/
-
+nav{
+    border: 2px solid black;
+    text-align: center;
+}
 
 /* selecteer alle a-elementen in de nav met de klasse links en 
 geef het een donkerachtergrond kleur en een lichte tekstkleur. en een unieke lettertype.
 Gebruik hiervoor de combinatieselector: Algemene afstamming: spatie. (Zie pagina 220)
  */
-
+a{
+    background-color: black;
+    color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
  /* Selecteer alle headers in een article. geef het een breedte van 400px, een rechter border van 100px solid green, en een border-radius van 50%
  Zie kindselector (pagina 221) */
